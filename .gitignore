@@ -11,3 +11,4 @@ pydarknet.html
 *.o
 *.so
 .env
+data/
