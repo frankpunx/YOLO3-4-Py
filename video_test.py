@@ -3,6 +3,7 @@ import time
 import pydarknet
 from pydarknet import Detector, Image
 import cv2
+from pydarknet import Detector
 
 if __name__ == "__main__":
     import argparse
@@ -20,6 +21,8 @@ if __name__ == "__main__":
 
     net = Detector(bytes("cfg/yolov3.cfg", encoding="utf-8"), bytes("weights/yolov3.weights", encoding="utf-8"), 0,
                    bytes("cfg/coco.data", encoding="utf-8"))
+
+
 
     while True:
         r, frame = cap.read()
