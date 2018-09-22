@@ -3,7 +3,6 @@ import time
 import pydarknet
 from pydarknet import Detector, Image
 import cv2
-from pydarknet import Detector
 
 if __name__ == "__main__":
     import argparse
